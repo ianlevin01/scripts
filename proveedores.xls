@@ -1,0 +1,3500 @@
+
+
+
+<html>
+<head>
+<title>Listado de Saldos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-image: url();
+}
+</style>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+	function actualizar_barra(progreso)
+	{
+		progreso=progreso+'%';
+		$('#mi_barra').css('width',progreso);
+	}
+</script>
+</head>
+
+<body>
+<body onLoad="setFocus();">
+<form action="" method="post" name="frmestados" id="frmestados">
+
+   
+  
+  
+  <table width="84%" height="147" border="1" align="center">
+    <tr>
+      <td background="write010.gif"> 
+        <table width="98%" border="1" align="center">
+          <tr bgcolor="#99CC99"> 
+            <td width="6%"> <div align="center"><strong>C&oacute;digo</strong></div></td>
+            <td width="35%" ><div align="center"><strong>Detalle</strong></div></td>
+            <td width="13%" align="center"><strong>Saldo $</strong></td>
+            <td width="14%" align="center"><strong>Saldo u$s</strong></td>
+            <td width="12%" align="center">Ultima</td>
+            <td width="14%" align="center">Ultima</td>
+          </tr>
+               <tr bgcolor="#FFFF99"> 
+               <td height="22" bgcolor="#FFFFFF"> <div align="center"><font size="2"><strong><font color="#000000" face="Arial, Helvetica, sans-serif">-</font></strong></font></div></td>
+			
+               <td bgcolor="#FFFFFF"> <div align="left"></div></td>
+               <td bgcolor="#FFFFFF">&nbsp;</td>
+               <td bgcolor="#FFFFFF">&nbsp;</td>
+               <td align="center" bgcolor="#99CC99">Venta/Compra</td>
+               <td align="center" bgcolor="#99CC99">Cobranza/pago</td>
+            </tr>
+
+            				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1268&kquien=2 target='_blank'>1268</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			101 ALAM DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            9984 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1135&kquien=2 target='_blank'>1135</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 ADRIANO INOVA DOLAR 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            24 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1043&kquien=2 target='_blank'>1043</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 AVI (D) 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            13901 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1298&kquien=2 target='_blank'>1298</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 BOUZON DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            8142 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1051&kquien=2 target='_blank'>1051</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 CARUSO DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -390 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1036&kquien=2 target='_blank'>1036</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 CESAR CLAUDIO (D) 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -7274 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1111&kquien=2 target='_blank'>1111</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 Claudio Mopa 21 D 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            6080 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1047&kquien=2 target='_blank'>1047</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 CNW 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            1390 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1106&kquien=2 target='_blank'>1106</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 DERCA 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -5000000 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1179&kquien=2 target='_blank'>1179</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 DERCA DOLAR 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            30515 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1165&kquien=2 target='_blank'>1165</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 DIEGO CHINO 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            259513 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1176&kquien=2 target='_blank'>1176</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 DINAX 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -372 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1309&kquien=2 target='_blank'>1309</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 EL GORDO DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            960 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1317&kquien=2 target='_blank'>1317</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 FERNET 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -83800 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1049&kquien=2 target='_blank'>1049</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 GABI MADISON  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            4178 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1096&kquien=2 target='_blank'>1096</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 HBL D 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            5125 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1079&kquien=2 target='_blank'>1079</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 JONY FLACO 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            6868 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1113&kquien=2 target='_blank'>1113</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 JONY HERM P 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -501000 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1264&kquien=2 target='_blank'>1264</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 JONY SAYEGH DOLAR 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -1000 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1269&kquien=2 target='_blank'>1269</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 jose aire 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -5719559 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1212&kquien=2 target='_blank'>1212</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 JOSE LUIS  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            809 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1231&kquien=2 target='_blank'>1231</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 JOSE LUIS P 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            390000 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1068&kquien=2 target='_blank'>1068</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 KANJI (P) 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            13311060 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1052&kquien=2 target='_blank'>1052</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 LALIT ULINE 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            32919 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1297&kquien=2 target='_blank'>1297</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 LAURA FACTURAS  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -13950320 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1302&kquien=2 target='_blank'>1302</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 LUAN SANTANA 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -34761 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1046&kquien=2 target='_blank'>1046</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 LUCAS KUSTIN (D) 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            10841 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1293&kquien=2 target='_blank'>1293</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 MANU PAPAS  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            1150 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1055&kquien=2 target='_blank'>1055</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 MANU Y ALEX (D) 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            49346 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1328&kquien=2 target='_blank'>1328</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 MARTIN HIRSCH MODULOS  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            61951 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1204&kquien=2 target='_blank'>1204</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 MARTIN P47 D 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            5861 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1263&kquien=2 target='_blank'>1263</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 MIBO DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -10607 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1150&kquien=2 target='_blank'>1150</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 OSCAR DYNORA D 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            3422 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1156&kquien=2 target='_blank'>1156</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 OSCAR DYNORA PESOS 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            363984 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1267&kquien=2 target='_blank'>1267</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 PABLO PAWAN 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -9690 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1167&kquien=2 target='_blank'>1167</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 PANKI 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            5586 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1243&kquien=2 target='_blank'>1243</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 PAWAN  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            4500 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1262&kquien=2 target='_blank'>1262</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 RAJAMIN 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            1510 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1142&kquien=2 target='_blank'>1142</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 RAJESH 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            276396 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1319&kquien=2 target='_blank'>1319</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 RAJESH IMPORTACION PREPAGO 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            51162 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1172&kquien=2 target='_blank'>1172</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 RAJESH PESOS  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -2668183 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1283&kquien=2 target='_blank'>1283</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 RETIROS  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -1200 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1103&kquien=2 target='_blank'>1103</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 RICARDO 21 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            19321 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1196&kquien=2 target='_blank'>1196</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 ROBER AUTO  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -14431 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1186&kquien=2 target='_blank'>1186</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 ROBER INDIO 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -2260 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1332&kquien=2 target='_blank'>1332</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 SANDRO JUGUETERO DOLS 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -100 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1305&kquien=2 target='_blank'>1305</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 SK DISTRIBUTORS DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            6971 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1242&kquien=2 target='_blank'>1242</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 SOIFER PESOS 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            14123994 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1115&kquien=2 target='_blank'>1115</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 SUNIL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            52747 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1171&kquien=2 target='_blank'>1171</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 SUNIL PESOS 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -900000 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1026&kquien=2 target='_blank'>1026</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 TARUN 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            25800 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1285&kquien=2 target='_blank'>1285</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 TARUN CAMPERAS  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            570 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1294&kquien=2 target='_blank'>1294</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 TONGA PESOS 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -1700000 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1119&kquien=2 target='_blank'>1119</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 UMESH 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            9539 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1274&kquien=2 target='_blank'>1274</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			102 URSO DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            1625 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1314&kquien=2 target='_blank'>1314</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			180 TAK  
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            9935 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1336&kquien=2 target='_blank'>1336</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			280 CHILENO PROV NVO PESOS 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -31000 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1325&kquien=2 target='_blank'>1325</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			ALQUILER 280 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -10 
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1324&kquien=2 target='_blank'>1324</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			EZRA SRL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            192 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1236&kquien=2 target='_blank'>1236</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			HERNAN COCO DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            15207 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1237&kquien=2 target='_blank'>1237</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			MARIO MAYO DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            -15303 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				          
+          
+          
+          <tr bgcolor="#FFFFCC"> 
+            
+            
+            <td height="25" bgcolor="#FFFFCC"><div align="center"><strong><font size="2" face="Courier New, Courier, mono"><a href=ctctindiv_mostrar.php?idm=1329&kquien=2 target='_blank'>1329</a></font></strong></div></td>
+
+            
+                
+            <td width="35%" bgcolor="#FFFFCC"> <div align="left"><font size="2" face="Courier New, Courier, mono"><strong>
+			MATO DOL 
+            </strong></font></div></td>
+            
+            
+
+            <td width="13%" align="right" bgcolor="#66FFCC"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+             
+            </strong></font></div></td>
+            
+            
+            <td width="14%" align="right" bgcolor="#66FF33"> <div align="right"><font size="2" face="Courier New, Courier, mono"><strong>
+            9000 
+            </strong></font></div></td>
+            
+
+            <td width="12%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+            <td width="14%" align="center" bgcolor="#FFFFCC"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>//</strong></font></div></td>
+
+          </tr>
+           				<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+								<!--<script>
+					actualizar_barra('');
+				</script> -->
+
+
+				             
+			<tr bgcolor="#FFFFCC"> 
+            <td height="28" bgcolor="#FFFF66"> <div align="center"><font size="2" face="Courier New, Courier, mono"><strong>
+	        </strong></font></div></td>
+              
+                
+            <td width="41%" bgcolor="#FFFF66"> <div align="left"><font size="3" face="Courier New, Courier, mono"><strong>
+			Saldo General: 
+            </strong></font></div></td>
+            
+            <td width="13%" align="right" bgcolor="#FFFF66"> <div align="right"><font size="3" face="Courier New, Courier, mono"><strong>-2281034             </strong></font></div></td>
+             
+             <td width="14%" align="right" bgcolor="#FFFF66"> <div align="right"><font size="3" face="Courier New, Courier, mono"><strong>821861             </strong></font></div></td>
+             <td width="12%" align="right" bgcolor="#FFFF66">&nbsp;</td>
+             <td width="14%" align="right" bgcolor="#FFFF66">&nbsp;</td>
+                
+          </tr>
+		  
+      </table></td>
+        
+        
+                   
+        
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</form>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
