@@ -239,57 +239,55 @@ async function importCtaCteClientes(clientesMap, clientesDivisaMap) {
 async function importProveedores() {
   log("PROVEEDORES", "Importando...");
 
-  const wb = xlsx.readFile("proveedores.xls");
-  const sheet = wb.Sheets[wb.SheetNames[0]];
-  const data = xlsx.utils.sheet_to_json(sheet);
+  const html = fs.readFileSync("proveedores.xls", "utf8");
+  const $ = cheerio.load(html);
+
+  const rows = [];
+  $("table tr").each((i, el) => {
+    const cols = [];
+    $(el).find("td, th").each((j, cell) => {
+      let val = $(cell).text().trim();
+      if (val === "_" || val === "---------------") val = null;
+      cols.push(val);
+    });
+    if (cols.length >= 15) rows.push(cols);
+  });
 
   const map = {};
   const provDivisaMap = {};
 
-  for (const row of data) {
+  for (const cols of rows) {
     try {
-      const nombreRaw = row["Nombre"] || row["__EMPTY_1"];
-      if (esBasura(nombreRaw)) continue;
+      const [codigo, detalle, , , , , , , , , , , , , moneda] = cols;
 
-      const nombre = normalize(nombreRaw);
+      if (esBasura(detalle)) continue;
+
+      const nombre = normalize(detalle);
       if (!nombre || map[nombre]) continue;
 
-      // Detect USD: if the row has a USD balance value, this is a USD provider
-      const montoUSD = parseNumber(row["Saldo u$s"] ?? row["__EMPTY_3"]);
-      const divisa = montoUSD != null && montoUSD !== 0 ? "USD" : "ARS";
+      const divisa = moneda && moneda.toLowerCase().includes("dol") ? "USD" : "ARS";
 
-      // Check for existing provider in DB to avoid duplicates on re-run
+      // Evitar duplicados en re-ejecución
       const existing = await client.query(
-        `SELECT p.id, cc.id AS cc_id FROM proveedores p
-         LEFT JOIN cuentas_corrientes_prov cc ON cc.proveedor_id = p.id
-         WHERE p.name = $1 LIMIT 1`,
-        [nombreRaw]
+        `SELECT id FROM proveedores WHERE name = $1 LIMIT 1`,
+        [detalle]
       );
 
-      let provId, cuentaId;
+      let provId;
       if (existing.rows[0]) {
-        provId   = existing.rows[0].id;
-        cuentaId = existing.rows[0].cc_id;
-        log("PROVEEDORES", `YA EXISTE ${nombreRaw}`);
+        provId = existing.rows[0].id;
+        log("PROVEEDORES", `YA EXISTE ${detalle}`);
       } else {
-        const res = await client.query(`
-          INSERT INTO proveedores (name, divisa)
-          VALUES ($1, $2)
-          RETURNING id
-        `, [nombreRaw, divisa]);
+        const res = await client.query(
+          `INSERT INTO proveedores (name, divisa) VALUES ($1, $2) RETURNING id`,
+          [detalle, divisa]
+        );
         provId = res.rows[0].id;
-
-        const cuenta = await client.query(`
-          INSERT INTO cuentas_corrientes_prov (proveedor_id, saldo, divisa)
-          VALUES ($1, 0, $2)
-          RETURNING id
-        `, [provId, divisa]);
-        cuentaId = cuenta.rows[0].id;
-
-        log("PROVEEDORES", `OK ${nombreRaw} (${divisa})`);
+        log("PROVEEDORES", `OK ${detalle} (${divisa})`);
       }
 
-      map[nombre] = cuentaId;
+      // No se crea CC aquí — solo los proveedores en corriente_proveedores.xls la tendrán
+      map[nombre] = provId;
       provDivisaMap[nombre] = divisa;
 
     } catch (err) {
@@ -301,13 +299,13 @@ async function importProveedores() {
 }
 
 // =====================
-// CTA PROVEEDORES (🔥 FIX SALDOS)
+// CTA PROVEEDORES
 // =====================
 
 async function importCtaCteProveedores(map, provDivisaMap) {
   log("CTA_PROV", "Importando...");
 
-  const wb = xlsx.readFile("proveedores.xls");
+  const wb = xlsx.readFile("corriente_proveedores.xls");
   const sheet = wb.Sheets[wb.SheetNames[0]];
   const data = xlsx.utils.sheet_to_json(sheet);
 
@@ -319,24 +317,32 @@ async function importCtaCteProveedores(map, provDivisaMap) {
       const nombre = normalize(nombreRaw);
       if (!nombre) continue;
 
-      const cuentaId = map[nombre];
-      if (!cuentaId) continue;
+      const provId = map[nombre];
+      if (!provId) continue;
 
       const divisa = provDivisaMap[nombre] || "ARS";
 
-      // 🔥 MISMO FIX
       const montoARS = parseNumber(row["Saldo $"] ?? row["__EMPTY_2"]);
       const montoUSD = parseNumber(row["Saldo u$s"] ?? row["__EMPTY_3"]);
-
-      let monto = null;
-
-      if (divisa === "USD") {
-        monto = montoUSD;
-      } else {
-        monto = montoARS;
-      }
+      const monto = divisa === "USD" ? montoUSD : montoARS;
 
       if (!monto) continue;
+
+      // Crear CC si no existe aún
+      const existingCC = await client.query(
+        `SELECT id FROM cuentas_corrientes_prov WHERE proveedor_id = $1 LIMIT 1`,
+        [provId]
+      );
+      let cuentaId;
+      if (existingCC.rows[0]) {
+        cuentaId = existingCC.rows[0].id;
+      } else {
+        const newCC = await client.query(
+          `INSERT INTO cuentas_corrientes_prov (proveedor_id, saldo, divisa) VALUES ($1, 0, $2) RETURNING id`,
+          [provId, divisa]
+        );
+        cuentaId = newCC.rows[0].id;
+      }
 
       await client.query(`
         INSERT INTO cc_movimientos_prov
