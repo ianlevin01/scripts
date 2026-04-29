@@ -1,7 +1,14 @@
+import dotenv from "dotenv";
+import { fileURLToPath } from "url";
+import path from "path";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: path.join(__dirname, "../sistema_once_backend/.env") });
+
 import puppeteer from "puppeteer";
 import pkg from "pg";
 import axios from "axios";
-import S3Service from "../sistema_once_backend/src/services/S3Service.js"; // ajustá path
+import S3Service from "../sistema_once_backend/src/services/S3Service.js";
 
 const { Client } = pkg;
 

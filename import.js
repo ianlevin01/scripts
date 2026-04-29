@@ -16,6 +16,8 @@ const parseNumber = (val) => {
   return isNaN(num) ? null : num;
 };
 
+const NEGOCIO_ID = "00000000-0000-0000-0000-000000000001";
+
 const warehouseNames = [
   "Pasteur 102","Pasteur 280","Peron Lejos","Oficina",
   "Oficina ML","Camarin","Tertulia","Salon Teatro",
@@ -26,25 +28,27 @@ const warehouses = {};
 
 for (const name of warehouseNames) {
   const res = await client.query(`
-    INSERT INTO warehouses (name)
-    VALUES ($1)
-    ON CONFLICT DO NOTHING
+    INSERT INTO warehouses (name, negocio_id)
+    VALUES ($1, $2)
+    ON CONFLICT (negocio_id, name) DO NOTHING
     RETURNING id
-  `, [name]);
+  `, [name, NEGOCIO_ID]);
 
   if (res.rows[0]) {
     warehouses[name] = res.rows[0].id;
   } else {
     const existing = await client.query(
-      `SELECT id FROM warehouses WHERE name = $1`,
-      [name]
+      `SELECT id FROM warehouses WHERE name = $1 AND negocio_id = $2`,
+      [name, NEGOCIO_ID]
     );
     warehouses[name] = existing.rows[0]?.id;
   }
 }
 
 const categoryMap = {};
-const categoryRes = await client.query(`SELECT id, name FROM categories`);
+const categoryRes = await client.query(
+  `SELECT id, name FROM categories WHERE negocio_id = $1`, [NEGOCIO_ID]
+);
 for (const cat of categoryRes.rows) {
   categoryMap[cat.name.trim().toLowerCase()] = cat.id;
 }
@@ -74,13 +78,11 @@ const idx = {
   ptoPedido: headers.indexOf("Pto Pedido"),
 };
 
-// 🔹 Precios: 5 columnas consecutivas después de Costo
-// Si en tu Excel tienen nombre exacto, reemplazá por: headers.indexOf("Precio 1"), etc.
+// Stock columns start 6 positions after costo (1 costo + 5 precio columns skipped)
 const precioStartIdx = idx.costo + 1;
 const CANTIDAD_PRECIOS = 5;
 
 console.log("Indices detectados:", idx);
-console.log("Precios desde columna índice:", precioStartIdx);
 
 const data = rows.slice(headerIndex + 1);
 
@@ -108,7 +110,7 @@ for (const row of data) {
 
   // producto
   let res = await client.query(
-    `SELECT id FROM products WHERE code = $1`, [code]
+    `SELECT id FROM products WHERE code = $1 AND negocio_id = $2`, [code, NEGOCIO_ID]
   );
 
   let productId;
@@ -123,10 +125,10 @@ for (const row of data) {
     updated++;
   } else {
     const insert = await client.query(`
-      INSERT INTO products (code, name, qxb, category_id)
-      VALUES ($1, $2, $3, $4)
+      INSERT INTO products (code, name, qxb, category_id, negocio_id)
+      VALUES ($1, $2, $3, $4, $5)
       RETURNING id
-    `, [code, detalle, qxb, categoryId]);
+    `, [code, detalle, qxb, categoryId, NEGOCIO_ID]);
     productId = insert.rows[0].id;
     inserted++;
   }
@@ -137,19 +139,6 @@ for (const row of data) {
       INSERT INTO product_costs (product_id, cost)
       VALUES ($1, $2)
     `, [productId, costo]);
-  }
-
-  // 🔹 precios
-  for (let i = 0; i < CANTIDAD_PRECIOS; i++) {
-    const price = parseNumber(row[precioStartIdx + i]);
-    if (price !== null) {
-      await client.query(`
-        INSERT INTO product_prices (product_id, price_type, price)
-        VALUES ($1, $2, $3)
-        ON CONFLICT (product_id, price_type)
-        DO UPDATE SET price = EXCLUDED.price
-      `, [productId, `precio_${i + 1}`, price]);
-    }
   }
 
   // stock (10 warehouses)

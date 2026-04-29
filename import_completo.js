@@ -16,6 +16,8 @@ await client.connect();
 // UTILS
 // =====================
 
+const NEGOCIO_ID = "00000000-0000-0000-0000-000000000001";
+
 const log = (mod, msg) => console.log(`[${mod}] ${msg}`);
 
 const parseNumber = (val) => {
@@ -130,10 +132,10 @@ async function importClientes() {
         INSERT INTO customers (
           name, domicilio, localidad, provincia, codigo_postal,
           phone, email, contacto, transporte, condicion_iva,
-          vendedor, descuento, dias_plazo, codigo, document, divisa
+          vendedor, descuento, dias_plazo, codigo, document, divisa, negocio_id
         )
         VALUES (
-          $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16
+          $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17
         )
         RETURNING id
       `, [
@@ -145,7 +147,8 @@ async function importClientes() {
         parseNumber(plazo),
         codigo ? String(codigo) : null,
         cuitLimpio,
-        divisa
+        divisa,
+        NEGOCIO_ID,
       ]);
 
       // No se crea CC aquí — solo los clientes en corriente_clientes.xls la tendrán
@@ -269,8 +272,8 @@ async function importProveedores() {
 
       // Evitar duplicados en re-ejecución
       const existing = await client.query(
-        `SELECT id FROM proveedores WHERE name = $1 LIMIT 1`,
-        [detalle]
+        `SELECT id FROM proveedores WHERE name = $1 AND negocio_id = $2 LIMIT 1`,
+        [detalle, NEGOCIO_ID]
       );
 
       let provId;
@@ -279,8 +282,8 @@ async function importProveedores() {
         log("PROVEEDORES", `YA EXISTE ${detalle}`);
       } else {
         const res = await client.query(
-          `INSERT INTO proveedores (name, divisa) VALUES ($1, $2) RETURNING id`,
-          [detalle, divisa]
+          `INSERT INTO proveedores (name, divisa, negocio_id) VALUES ($1, $2, $3) RETURNING id`,
+          [detalle, divisa, NEGOCIO_ID]
         );
         provId = res.rows[0].id;
         log("PROVEEDORES", `OK ${detalle} (${divisa})`);
