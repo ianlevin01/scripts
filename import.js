@@ -94,10 +94,9 @@ for (const row of data) {
   if (!code) continue;
 
   const ptoPedido = parseNumber(row[idx.ptoPedido]);
-  if (!ptoPedido || ptoPedido <= 0) {
-    console.log(`⏭️ ${code} omitido (Pto Pedido = ${ptoPedido})`);
-    continue;
-  }
+  const activo    = ptoPedido !== null && ptoPedido > 0;
+
+  if (!activo) console.log(`⚠️ ${code} → inactivo (Pto Pedido = ${ptoPedido})`);
 
   const detalle   = row[idx.detalle];
   const qxb       = parseNumber(row[idx.qxb]);
@@ -106,7 +105,7 @@ for (const row of data) {
   const rubro     = rubroRaw?.toString().trim().toLowerCase();
   const categoryId = categoryMap[rubro] || null;
 
-  console.log(`→ ${code} | rubro: ${rubro}`);
+  console.log(`→ ${code} | rubro: ${rubro} | activo: ${activo}`);
 
   // producto
   let res = await client.query(
@@ -119,16 +118,16 @@ for (const row of data) {
     productId = res.rows[0].id;
     await client.query(`
       UPDATE products
-      SET name = $1, qxb = $2, category_id = $3
-      WHERE id = $4
-    `, [detalle, qxb, categoryId, productId]);
+      SET name = $1, qxb = $2, category_id = $3, active = $4
+      WHERE id = $5
+    `, [detalle, qxb, categoryId, activo, productId]);
     updated++;
   } else {
     const insert = await client.query(`
-      INSERT INTO products (code, name, qxb, category_id, negocio_id)
-      VALUES ($1, $2, $3, $4, $5)
+      INSERT INTO products (code, name, qxb, category_id, negocio_id, active)
+      VALUES ($1, $2, $3, $4, $5, $6)
       RETURNING id
-    `, [code, detalle, qxb, categoryId, NEGOCIO_ID]);
+    `, [code, detalle, qxb, categoryId, NEGOCIO_ID, activo]);
     productId = insert.rows[0].id;
     inserted++;
   }

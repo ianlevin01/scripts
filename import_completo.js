@@ -151,8 +151,15 @@ async function importClientes() {
         NEGOCIO_ID,
       ]);
 
-      // No se crea CC aquí — solo los clientes en corriente_clientes.xls la tendrán
-      clientesMap[nombre] = res.rows[0].id;
+      const customerId = res.rows[0].id;
+
+      // Crear CC con saldo 0 para todos los clientes
+      await client.query(
+        `INSERT INTO cuentas_corrientes (customer_id, saldo, divisa) VALUES ($1, 0, $2)`,
+        [customerId, divisa]
+      );
+
+      clientesMap[nombre] = customerId;
       clientesDivisaMap[nombre] = divisa;
 
       log("CLIENTES", `OK ${detalle}`);
