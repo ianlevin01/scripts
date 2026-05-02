@@ -128,41 +128,56 @@ async function importClientes() {
         ? String(cuit).replace(/\D/g, "").slice(0, 20)
         : null;
 
-      const res = await client.query(`
-        INSERT INTO customers (
-          name, domicilio, localidad, provincia, codigo_postal,
-          phone, email, contacto, transporte, condicion_iva,
-          vendedor, descuento, dias_plazo, codigo, document, divisa, negocio_id
-        )
-        VALUES (
-          $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17
-        )
-        RETURNING id
-      `, [
-        detalle, domicilio, localidad, provincia,
-        postal ? String(postal) : null,
-        telefonoLimpio, email, contacto, transporte,
-        condicion, vendedor,
-        parseNumber(descuento),
-        parseNumber(plazo),
-        codigo ? String(codigo) : null,
-        cuitLimpio,
-        divisa,
-        NEGOCIO_ID,
-      ]);
-
-      const customerId = res.rows[0].id;
-
-      // Crear CC con saldo 0 para todos los clientes
-      await client.query(
-        `INSERT INTO cuentas_corrientes (customer_id, saldo, divisa) VALUES ($1, 0, $2)`,
-        [customerId, divisa]
+      const existing = await client.query(
+        `SELECT id FROM customers WHERE name = $1 AND negocio_id = $2 LIMIT 1`,
+        [detalle, NEGOCIO_ID]
       );
+
+      let customerId;
+      if (existing.rows[0]) {
+        customerId = existing.rows[0].id;
+        log("CLIENTES", `YA EXISTE ${detalle}`);
+      } else {
+        const res = await client.query(`
+          INSERT INTO customers (
+            name, domicilio, localidad, provincia, codigo_postal,
+            phone, email, contacto, transporte, condicion_iva,
+            vendedor, descuento, dias_plazo, codigo, document, divisa, negocio_id
+          )
+          VALUES (
+            $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17
+          )
+          RETURNING id
+        `, [
+          detalle, domicilio, localidad, provincia,
+          postal ? String(postal) : null,
+          telefonoLimpio, email, contacto, transporte,
+          condicion, vendedor,
+          parseNumber(descuento),
+          parseNumber(plazo),
+          codigo ? String(codigo) : null,
+          cuitLimpio,
+          divisa,
+          NEGOCIO_ID,
+        ]);
+        customerId = res.rows[0].id;
+        log("CLIENTES", `OK ${detalle}`);
+      }
+
+      // Crear CC si no tiene una todavía
+      const existingCC = await client.query(
+        `SELECT id FROM cuentas_corrientes WHERE customer_id = $1 LIMIT 1`,
+        [customerId]
+      );
+      if (!existingCC.rows[0]) {
+        await client.query(
+          `INSERT INTO cuentas_corrientes (customer_id, saldo, divisa) VALUES ($1, 0, $2)`,
+          [customerId, divisa]
+        );
+      }
 
       clientesMap[nombre] = customerId;
       clientesDivisaMap[nombre] = divisa;
-
-      log("CLIENTES", `OK ${detalle}`);
 
     } catch (err) {
       log("CLIENTES", `ERROR: ${err.message}`);
