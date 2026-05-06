@@ -20,7 +20,7 @@ const { rows: products } = await client.query(`
   SELECT p.id, p.name, p.description, c.name AS category_name
   FROM products p
   LEFT JOIN categories c ON c.id = p.category_id
-  WHERE p.embedding IS NULL AND p.deleted_at IS NULL AND p.active = true
+  WHERE p.embedding IS NULL AND p.deleted_at IS NULL
   ORDER BY p.name
 `);
 
